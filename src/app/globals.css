@@ -31,3 +31,60 @@ body {
     text-wrap: balance;
   }
 }
+
+.title-section{
+  @apply text-[40px] sm:text-[4vw] font-bold mb-[50px];
+}
+
+.half-line{
+  @apply sm:w-[50%] flex justify-center;
+}
+
+.section-aboutme{
+  @apply flex items-center justify-between flex-col;
+}
+.icon-program-lengauge-section{
+  @apply flex flex-row items-center max-w-[1200px] min-h-[150px];
+}
+
+.icon-program-lengauge{
+  @apply w-28
+}
+
+.slider-container{
+  @apply w-[80%] m-auto
+}
+
+.slick-initialized .slick-slide {
+  @apply !flex justify-center
+}
+
+
+.arrow {
+  font-size: 0;
+  line-height: 0;
+  position: absolute;
+  top: 50%;
+  display: block;
+  width:40px;
+  height: 40px;
+  padding: 0;
+  transform: translate(0, -50%);
+  cursor: pointer;
+  color: transparent;
+  border: none;
+  outline: none;
+  background: transparent;
+}
+
+.next {
+  right: -25px;
+}
+
+.prev {
+  left: -25px;
+}
+
+/* .arrow:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+} */

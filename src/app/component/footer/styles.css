@@ -1,0 +1,119 @@
+.footer {
+  @apply flex flex-col items-center bg-red-700 text-white;
+}
+
+.footer-content-parent {
+  @apply flex items-start sm:items-end flex-col sm:flex-row justify-evenly w-full py-5 px-7;
+}
+
+.footer-title {
+  @apply font-semibold pt-[7.5vw] pb-[1.5vw] sm:py-[0.5vw] text-[1.12vw];
+}
+
+.footer-content-child {
+  @apply  flex flex-col text-black my-2 sm:my-0;
+}
+
+.footer-content-image {
+  @apply aspect-[120/142] ml-8 mt-6;
+}
+
+.footer-content-child.social-media {
+  @apply mr-[3.4rem] min-w-[17vw];
+}
+
+.footer-content-child.social-media img {
+  @apply inline mr-3;
+}
+
+.footer-content-copyright {
+  @apply py-3 font-medium;
+}
+
+.footer-combine {
+  @apply flex flex-row gap-[1vw] pt-1;
+}
+
+.footer-content-parent-mobile {
+  @apply flex items-center flex-row sm:flex-col justify-between w-full px-6 sm:py-7 pb-[1.75rem];
+}
+
+.footer-content-image-mobile {
+  @apply w-[20vw] h-[24vw] mt-6;
+}
+
+.footer-content-child-mobile {
+  @apply text-[3.06vw] leading-[5vw];
+}
+
+.footer-content-child-mobile a {
+  @apply flex items-center gap-[2vw];
+}
+
+.footer-content-child-mobile a img {
+  @apply w-[4vw] h-[4vw];
+}
+
+.footer-content-child-mobile .footer-title {
+  @apply text-[3.5vw]
+}
+
+.margin-24 {
+  @apply ml-[24vw];
+}
+
+.no-margin {
+  margin: 0px !important;
+}
+
+.footer-content-copyright-mobile {
+  @apply text-[3vw] ml-[24vw] mt-[10vw];
+}
+
+.logo-footer {
+  @apply w-[20vw] h-[20vw] sm:w-[8vw] sm:h-[8vw];
+}
+
+.list-produck-footer {
+  @apply min-w-[18vw];
+}
+
+.new-flex-footer {
+  @apply flex flex-col items-start gap-x-[0.2vw]
+}
+
+.new-title {
+  @apply !p-0;
+}
+
+.new-title-div {
+  @apply pt-1 py-0
+}
+
+/* .social-media li {
+  @apply mb-2;
+}
+
+.social-media ul {
+  @apply my-4;
+} */
+
+.footer-content-childno-margin {
+  margin-top: -10px;
+}
+
+.copyrigt{
+  @apply mt-6 font-medium text-[0.835vw]
+}
+
+.ul-media{
+  @apply  flex flex-col
+}
+
+.mobile-addres-footer{
+  @apply flex-col !gap-0 !items-start
+}
+
+.addres-footer{
+  @apply flex-col flex gap-y-[0.2vw]
+}

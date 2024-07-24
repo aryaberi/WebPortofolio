@@ -1,0 +1,135 @@
+.navbar-header {
+  @apply sticky top-0 w-full  sm:h-[5.3vw] bg-red-700 flex items-center justify-center text-[3.6vw] sm:text-[1.25vw] flex-col h-auto text-white;
+}
+
+.navbar-nav {
+  @apply max-h-24  pl-6 sm:px-6 w-full h-full z-10 flex items-center justify-between;
+}
+
+.navbar-right-side{
+  @apply text-[3vw]
+}
+
+.navbar-logo {
+  @apply max-w-[300px];
+}
+
+.navbar-logo img{
+  @apply sm:h-[6w]
+}
+
+.navbar-links {
+  @apply flex text-center items-center sm:mr-12 mr-4;
+}
+
+/* .navbar-links .navbar-links-child {
+  @apply min-w-[100px];
+} */
+
+.navbar-links .navbar-links-child:hover {
+  @apply font-bold;
+}
+
+
+
+/* .navbar-carousel {
+  @apply w-44;
+} */
+
+.navbar-carousel-mobile {
+  @apply w-44 flex justify-center;
+}
+
+.navbar-carousel:hover {
+  @apply text-[#412F26];
+}
+
+.navbar-carousel-title {
+  @apply flex gap-2 sm:gap-4 min-h-[8vw] sm:min-h-0 sm:items-center;
+}
+
+.navbar-carousel-title-open {
+  @apply flex items-center gap-2 sm:gap-4 text-[#412F26] font-semibold;
+}
+
+.navbar-dropdown-arrow {
+  @apply w-[3vw] h-[1vw] sm:w-[1.38vw] sm:h-[0.9vw] sm:mt-[-1px] mt-[2.5vw] aspect-[16/9] bg-cover;
+}
+
+.navbar-dropdown-arrow-active {
+  background-image:url("/images/navbar/product_hover_close.svg") ;
+  @apply w-[3vw] h-[1vw] sm:w-[1.4vw] sm:h-[0.82vw] mt-[-1px] aspect-[16/9] bg-cover;
+}
+
+
+.navbar-carousel:hover .navbar-dropdown-arrow .normal {
+  @apply hidden
+}
+
+.navbar-carousel:hover .navbar-dropdown-arrow .bold {
+  @apply block
+}
+
+.navbar-dropdown-arrow-open {
+  @apply w-[3.65vw] h-[1vw] sm:w-[1.2vw] sm:h-[0.75vw] sm:mt-[-1px] mt-[2vw] aspect-[16/9];
+}
+.navbar-dropdown-content {
+  @apply w-full flex flex-col bg-white top-full sm:absolute sm:w-44;
+}
+
+.navbar-whatsapp, .navbar-email {
+  @apply  aspect-square w-[7vw] sm:w-[2.5vw] pt-[1vw] sm:pt-0 min-h-[9vw] sm:min-h-0;
+}
+
+.navbar-nav-mobile {
+  @apply py-3 pr-6 w-full h-[15.5vw] z-10 flex items-center justify-between;
+}
+
+.menu-mobile-image {
+  /* box-shadow: 1px 1px 1px rgba(0,0,0,0.5); */
+  @apply w-[10vw];
+}
+/* .menu-mobile-image img{
+@apply h-[9vw]
+} */
+.cv-logo {
+  @apply w-[48vw] sm:w-[14vw] ml-4 sm:ml-[2rem] sm:mt-[-0.5vw];
+}
+
+.navbar-mobile-component {
+  box-shadow: 0px 4px 4px 0px #0000001A;
+  background-color: #fff;
+  @apply w-full  flex flex-col items-center leading-6;
+}
+
+.navbar-whatsapp:hover .hover-wa{
+  @apply block
+}
+
+.navbar-whatsapp:hover .normal-wa{
+  @apply hidden
+}
+
+.hover-wa{
+  @apply hidden
+}
+
+.navbar-email:hover .hover-email{
+  @apply block
+}
+
+.navbar-email:hover .normal-email{
+  @apply hidden
+}
+
+.hover-email{
+  @apply hidden
+}
+
+.open-product-mobile{
+  @apply  bg-[#412F26] text-white font-medium min-h-[7vw]
+}
+
+.navbar-links-child{
+  @apply min-h-[8vw] sm:min-h-0;
+}
