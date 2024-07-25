@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
         <div className="footer-content-child">
           <a
-            href="https://api.whatsapp.com/send?phone=6289670976800"
+            href="https://www.linkedin.com/in/arya-beri-7b8b3a207/"
             target="blank"
             className="flex items-center text-[24px] text-white  hover:scale-110"
           >
@@ -80,7 +80,7 @@ const Footer = () => {
         </div>
         <div className="footer-content-child">
           <a
-            href="https://api.whatsapp.com/send?phone=6289670976800"
+            href="https://github.com/aryaberi"
             target="blank"
             className="flex items-center text-[24px] text-white hover:scale-110"
           >

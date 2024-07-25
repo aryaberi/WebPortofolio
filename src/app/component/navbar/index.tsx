@@ -66,7 +66,7 @@ const Navbar = () => {
             className={`${isLinkActive(
               "/about"
             )} navbar-links-child  min-w-[6.1vw] sm:block hidden`}
-            href="/about"
+            href="#Section-About-Me"
           >
             About Me
           </Link>
@@ -75,7 +75,7 @@ const Navbar = () => {
             className={`${isLinkActive(
               "/gallery"
             )} navbar-links-child  min-w-[10vw] sm:block hidden`}
-            href="/gallery"
+            href="#Section-Project-Gallery"
           >
             Project Gallery
           </Link>
