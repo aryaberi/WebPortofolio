@@ -6,8 +6,8 @@
     border-top: 20px solid black;
     animation: blink 1s infinite;
     position: absolute;
-    bottom: 10px;
-    right: 450px;
+    bottom: 8px;
+    right: 570px;
   }
   
   @keyframes blink {

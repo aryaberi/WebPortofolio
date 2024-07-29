@@ -3,7 +3,7 @@ import React from "react";
 import Image from "next/image";
 import "./globals.css";
 import CardProject from "./component/cardProject";
-import profilPicture from "../../public/profilPicture.jpg";
+import profilPicture from "../../public/profilPicture.png";
 import BlinkTrianggle from "./component/blinkTriangle";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -161,7 +161,7 @@ export default function Home() {
       <div className="section-aboutme max-w-full" id="Section-About-Me">
         <div className="title-section font-serif" >About Me</div>
         <div className="flex flex-col justify-between items-center sm:flex-row">
-          <div className="half-line relative min-w-[800px]">
+          <div className="half-line relative min-w-[800px] !justify-end pr-[150px]">
             <div id="aksesoris" className=" hidden sm:flex flex-col items-end absolute top-[-30px] left-[120px]">
               <div id="rounded-1" className="bg-red-200 rounded-[50%] h-4 w-4 mb-4 opacity-0" ></div>
               <div id="rounded-2" className="bg-red-400 rounded-[50%] h-6 w-6 my-4 mr-4 opacity-0" ></div>
@@ -249,6 +249,16 @@ export default function Home() {
               </div>
               <div className="icon-program-lengauge">
                 <Image
+                  src="/next.png"
+                  alt="Next js Logo"
+                  className="dark:invert h-auto"
+                  width={100}
+                  height={24}
+                  priority
+                />
+              </div>
+              <div className="icon-program-lengauge">
+                <Image
                   src="/java.png"
                   alt="java Logo"
                   className="dark:invert h-auto"
@@ -259,8 +269,18 @@ export default function Home() {
               </div>
               <div className="icon-program-lengauge">
                 <Image
-                  src="/vsCode.png"
-                  alt="Vs Code Logo"
+                  src="/TailwindIcon.png"
+                  alt="Tailwind Logo"
+                  className="dark:invert h-auto"
+                  width={100}
+                  height={24}
+                  priority
+                />
+              </div>
+              <div className="icon-program-lengauge">
+                <Image
+                  src="/JQuery.png"
+                  alt="JQuery Logo"
                   className="dark:invert h-auto"
                   width={100}
                   height={24}
