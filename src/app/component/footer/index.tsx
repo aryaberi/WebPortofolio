@@ -28,7 +28,7 @@ const Footer = () => {
   }, []);
 
   return (
-    <div className="footer">
+    <div className="footer rounded-md">
       <div
         className={
           // widthSize < 640
