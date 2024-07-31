@@ -314,7 +314,7 @@ export default function Home() {
               </div>
               <div className="icon-program-lengauge">
                 <Image
-                  src="/java.png"
+                  src="/JavaIcon.png"
                   alt="java Logo"
                   className="dark:invert h-auto"
                   width={100}
