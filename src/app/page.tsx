@@ -3,7 +3,6 @@ import React from "react";
 import Image from "next/image";
 import "./globals.css";
 import CardProject from "./component/cardProject";
-import profilPicture from "../../public/profilPicture.png";
 import BlinkTrianggle from "./component/blinkTriangle";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
@@ -13,6 +12,8 @@ import RightArrow from "../../public/right-arrow-icon.png";
 import MobbiProject from "../../public/MobbiProject.png";
 import OLXProject from "../../public/OLXProject.png";
 import { Dialog } from "@mui/material";
+
+
 
 export default function Home() {
   const [isDialogOpen, setIsDialogOpen] = React.useState(false);
@@ -219,7 +220,7 @@ export default function Home() {
             </div>
             <div className="relative flex items-center sm:mb-0 mb-16">
               <Image
-                src={profilPicture}
+                src={"/profilPicture.png"}
                 alt="Profil Picture"
                 className="dark:invert rounded-[100%]"
                 width={100}
